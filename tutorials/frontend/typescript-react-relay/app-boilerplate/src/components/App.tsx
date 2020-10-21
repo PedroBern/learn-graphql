@@ -5,9 +5,15 @@ import TodoPrivateWrapper from './Todo/TodoPrivateWrapper';
 import TodoPublicWrapper from './Todo/TodoPublicWrapper';
 import OnlineUsersWrapper from './OnlineUsers/OnlineUsersWrapper';
 
+import createContext from "../utils/createContext"
+
 import { useAuth0 } from "./Auth/react-auth0-spa";
 
-const App = ({idToken}:{idToken:string}) => {
+type Props = {
+  idToken: string
+};
+
+const App:React.FC<Props> = ({ idToken }) => {
   const { loading, logout  } = useAuth0();
   if(loading) {
     return (<div>Loading...</div>);
