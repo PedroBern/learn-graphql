@@ -1,5 +1,5 @@
 {
-  "name": "typescript-react-apollo-boilerplate",
+  "name": "typescript-react-relay-boilerplate",
   "version": "0.1.0",
   "dependencies": {
     "@auth0/auth0-spa-js": "1.2.3",
