@@ -1,6 +1,6 @@
 ---
 title: "Tutorial & boilerplate setup"
-metaTitle: "Todo App React Typescript boilerplate setup | GraphQL React Apollo Typescript Tutorial"
+metaTitle: "Todo App React Typescript boilerplate setup | GraphQL React Relay Typescript Tutorial"
 metaDescription: "The GraphQL backend is already ready. The task is to convert the static UI into a working realtime app in React.js with appropriate types"
 ---
 
@@ -9,7 +9,7 @@ Our task will be to convert the "static" UI into a working realtime app.
 
 ### Download and run the boilerplate
 
-1. Download the boilerplate from https://hasura.io/learn/graphql/typescript-react-apollo/boilerplate.zip
+1. Download the boilerplate from https://hasura.io/learn/graphql/typescript-react-relay/boilerplate.zip
 2. Unzip and make sure you're in the `app-boilerplate` directory
 3. Install dependencies and run the "static" app
     - `yarn`
@@ -21,6 +21,8 @@ This is what you should see after the steps above:
 ![Boilerplate after login](https://graphql-engine-cdn.hasura.io/learn-hasura/assets/graphql-react/boilerplate-after-login.png)
 
 ### Load GraphiQL to play with your GraphQL APIs
+
+<!-- TODO: GraphiQL does not support relay yet -->
 
 1. Head to https://hasura.io/learn/graphql/graphiql
 2. Log in (so that you can test the GraphQL APIs with a valid user token)
